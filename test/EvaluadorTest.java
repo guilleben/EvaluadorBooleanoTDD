@@ -10,8 +10,9 @@ public class EvaluadorTest {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testTrue() {
+		EValuadorBoleano evaluador = new EvaluadorBoleano();
+		assert evaluador.evalua("verdadero") == true;
 	}
 
 }
