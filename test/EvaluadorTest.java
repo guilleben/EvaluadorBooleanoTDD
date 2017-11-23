@@ -21,4 +21,12 @@ public class EvaluadorTest {
 		assert evaluador.evalua("falso") == false;
 	}
 
+	
+	@Test
+	public void testParentesis() {
+		EvaluadorBoleano evaluador = new EvaluadorBoleano();
+		assert evaluador.eval("(verdadero)") ==true;
+		assert evaluador.eval("(falso)") ==false;
+		
+	}
 }
