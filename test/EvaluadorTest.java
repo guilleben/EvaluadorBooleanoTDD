@@ -18,7 +18,7 @@ public class EvaluadorTest {
 	@Test
 	public void testFalse() {
 		EvaluadorBoleano evaluador = new EvaluadorBoleano();
-		assert evaluador.evalua("falso) == false;
+		assert evaluador.evalua("falso") == false;
 	}
 
 }
